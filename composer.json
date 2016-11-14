@@ -1,0 +1,22 @@
+{
+    "name": "tmukherjee13/yii2-event-handler",
+    "description": "Event handler module for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "event", "handler"],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Tarun M",
+        "email": "tmukherjee13@gmail.com"
+    }],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tmukherjee13\\eventHandler\\": "src"
+        }
+    },
+    "extra": {
+        "bootstrap": "tmukherjee13\\eventHandler\\EventBootstrap"
+    }
+}
